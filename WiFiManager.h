@@ -187,7 +187,7 @@
 // #pragma message "VER_ARDUINO_STR = " WM_STRING(VER_ARDUINO_STR)
 
 #ifndef WIFI_MANAGER_MAX_PARAMS
-    #define WIFI_MANAGER_MAX_PARAMS 5 // params will autoincrement and realloc by this amount when max is reached
+    #define WIFI_MANAGER_MAX_PARAMS 6 // params will autoincrement and realloc by this amount when max is reached
 #endif
 
 #define WFM_LABEL_BEFORE 1

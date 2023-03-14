@@ -722,7 +722,7 @@ boolean WiFiManager::startConfigPortal(char const *apName, char const *apPasswor
   // only 0x20 and 0x2E are not allowed at the end of the string
   // @todo check if valid apname
 
-  for (int i = 0; i < strlen(_apName.c_str()); i++) {
+  for (unsigned int i = 0; i < strlen(_apName.c_str()); i++) {
     if (i != 0 && i!=(strlen(_apName.c_str())-1)) {
       // not first or last char
       // check if valid char
